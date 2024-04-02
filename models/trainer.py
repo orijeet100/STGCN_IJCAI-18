@@ -10,7 +10,8 @@ from models.tester import model_inference
 from models.base_model import build_model, model_save
 from os.path import join as pjoin
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 import numpy as np
 import time
 

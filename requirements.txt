@@ -1,0 +1,4 @@
+TensorFlow >= 1.9.0
+NumPy >= 1.15
+SciPy >= 1.1.0
+Pandas >= 0.23
